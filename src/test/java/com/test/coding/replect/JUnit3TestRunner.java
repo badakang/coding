@@ -11,6 +11,10 @@ public class JUnit3TestRunner {
 
 	private static final Logger log = LoggerFactory.getLogger(JUnit3TestRunner.class);
 
+	/**
+	 * 요구사항2 - test로 시작하는 메서드 실행하기
+	 * @throws Exception
+	 */
 	@Test
 	public void run() throws Exception {
 		Class<JUnit3Test> clazz = JUnit3Test.class;
